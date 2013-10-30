@@ -1,7 +1,7 @@
-<atlassian-plugin key="jira-jabber-notifier-listener" name="jira-jabber-notifier-listener" plugins-version="2">
+<atlassian-plugin key="com.atlassian.jira.ext.jira-jabber-notifier-listener" name="JIRA Jabber Notifier Listener" plugins-version="2">
     <plugin-info>
         <description>Notifies a configurable list of people on a particular JIRA event.</description>
         <version>2.0</version>
-        <vendor name="SBT" url="" />
+        <vendor name="" url="" />
     </plugin-info>
 </atlassian-plugin>

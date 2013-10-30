@@ -105,8 +105,6 @@
     </dependencyManagement>
     <scm>
     	<developerConnection>jBilly</developerConnection>
-    	<url>https://github.com/jBilly/JJNotify.git</url>
-    	<connection>scm:git:https://github.com/jBilly/</connection>
     	<tag>default</tag>
     </scm>
 </project>
