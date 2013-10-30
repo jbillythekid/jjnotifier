@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/164462/JJABBER/trunk/src/main/java/com/atlassian/jira/ext/jabbernotifier/transport
+END
+IMTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/164462/JJABBER/trunk/src/main/java/com/atlassian/jira/ext/jabbernotifier/transport/IMTransport.java
+END
+JabberTransport.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/164461/JJABBER/trunk/src/main/java/com/atlassian/jira/ext/jabbernotifier/transport/JabberTransport.java
+END
+TransportListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/164461/JJABBER/trunk/src/main/java/com/atlassian/jira/ext/jabbernotifier/transport/TransportListener.java
+END
+JabberServerConnectionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/154967/JJABBER/trunk/src/main/java/com/atlassian/jira/ext/jabbernotifier/transport/JabberServerConnectionException.java
+END

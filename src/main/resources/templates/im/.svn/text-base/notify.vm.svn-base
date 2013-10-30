@@ -1,0 +1,6 @@
+$issue.getPriorityObject().getName(): $event.getRemoteUser().getFullName() triggered "$desc" event on issue "$issue.getSummary()" at $base_url/browse/$issue.getKey()#if($comment)#action_$comment.getId()#end
+
+#if($comment)
+
+$comment.getBody()
+#end

@@ -1,0 +1,22 @@
+
+----------------------------------------
+Author: $author.getDisplayName()
+Triggered: "$desc"
+Issue priority: $issue.getPriorityObject().getName()
+Issue Status: $issue.getStatusObject().getName()
+Issue: "$issue.getKey() $issue.getSummary()"
+Issue Type: $issue.getIssueTypeObject().getName()
+Issue Resolution: $issue.getResolutionObject().getName()
+Issue History: "$changehistory.getChangeHistory($comment.getIssue())"
+Issue History: "$changehistory.getAllChangeItems($comment.getIssue())"
+Issue History: "$changehistory.getAllChangeItems($issue)"
+Issue History: "$changehistory.getChangeItems()"
+#if($comment) 
+Comment:
+$comment.getBody()
+----------------------------------------
+$base_url/browse/$issue.getKey()#action_$comment.getId()
+#else 
+$base_url/browse/$issue.getKey()
+#end
+----------------------------------------
